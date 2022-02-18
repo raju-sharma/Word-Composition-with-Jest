@@ -34,5 +34,4 @@ var readfile2 = function()
                    }
                    return [input2,map2]
 }
-
 module.exports = {readfile0,readfile1,readfile2}

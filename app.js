@@ -14,7 +14,6 @@ var isPossible = function(i,temp, len,map,dp)
     }
     return false
 }
-
 let scramble_word = function(input,map) { 
 console.time("Time taken to process result")  
    var result1 = ""

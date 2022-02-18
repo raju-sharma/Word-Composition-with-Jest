@@ -1,7 +1,6 @@
 const {readfile0,readfile1, readfile2} = require('../util.js')
 const {scramble_word} = require('../app.js')
 
-
 test('Reading and Calculating the result of file 0 -->',() =>  { 
     console.log("About File 0")
     let data = readfile0()
