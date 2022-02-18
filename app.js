@@ -1,4 +1,3 @@
-
 var isPossible = function(i,temp, len,map,dp)
 {
       if(i === len)
@@ -50,6 +49,5 @@ console.log("Longest Compound Word: "+result1)
 console.log("Second Longest Compound Word: "+ result2)
 console.timeEnd("Time taken to process result")
 return [result1,result2]
-}
-   
+}  
 module.exports = {scramble_word}
